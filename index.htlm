@@ -8,5 +8,11 @@
 
     <title>Site agência de viagens</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a href="#">
+        <img src="" alt="">
+      </a>
+    </header>
+  </body>
 </html>
