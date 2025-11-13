@@ -11,12 +11,24 @@
   <body>
     <header>
       <a class="logo" href="index.html" title="voltar para pagina inicial">
-        <img src="img/Logo-bussola-branca.png" alt="bússola preta" />
+        <img
+          class="img-mobile"
+          src="img/Logo-bussola-branca.png"
+          alt="Logo-bussola-branca"
+        />
+        <img
+          class="img-desktop"
+          src="img/Logo-provisória-branca 1.png"
+          alt="logo Logo-bussola-branca"
+        />
       </a>
-      <div>
-        <img src="img/menu-tipo-hamburguer.png" alt="imagem do ícone menu" />
+      <div class="navigation-menu">
+        <label for="menu">
+          <img src="img/menu-tipo-hamburguer.png" alt="ícone do menu" />
+        </label>
+        <input type="checkbox" id="menu" hidden />
         <nav>
-          <ul>
+          <ul class="list-links">
             <li>
               <a href="blog.html" target="_blank" title="acessar blog">Blog</a>
             </li>
