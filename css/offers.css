@@ -1,7 +1,6 @@
-.offers{
-  margin-bottom: 104px;
+.offers {
+  margin-bottom: 88px;
 }
-
 
 .offers-cards {
   display: flex;
@@ -21,10 +20,6 @@
   text-align: center;
 }
 .offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 
@@ -92,10 +87,9 @@
   }
 }
 
-
 @media screen and (min-width: 1920px) {
-    .offers-cards {
-      width: 1250px;
-      margin: auto;
-    }
+  .offers-cards {
+    width: 1250px;
+    margin: auto;
   }
+}
