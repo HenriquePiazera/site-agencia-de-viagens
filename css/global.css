@@ -51,7 +51,7 @@ section{
 }
 
 
-.section.hero{
+section.hero{
   width: 100%;
   margin: 0;
 }
@@ -88,6 +88,7 @@ section{
   text-decoration: none;
   line-height: 64px;
   text-align: center;
+  margin: 0 auto 16px;
 
 }
 
