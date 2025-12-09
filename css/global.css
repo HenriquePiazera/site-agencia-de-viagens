@@ -72,13 +72,14 @@ section.hero{
   height: 4px;
   background-color: var(--secondary-color);
   border: none;
-  margin: 16px auto 16px;
+  margin: 16px auto 32px;
 }
 
 
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
+  margin: 0 0 24px;
 }
 
 

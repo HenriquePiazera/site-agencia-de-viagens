@@ -10,16 +10,14 @@
   height: 368px;
 }
 
-
 .destinations .item.tokyo .img-item {
-    background: url(../img/tokio-mobile.jpg);
-    background-size: cover;
+  background: url(../img/tokio-mobile.jpg);
+  background-size: cover;
 }
 
-
 .destinations .item.osaka .img-item {
-    background: url(../img/osaka-mobile.jpg);
-    background-size: cover;
+  background: url(../img/osaka-mobile.jpg);
+  background-size: cover;
 }
 
 .destinations .item header h4 {
@@ -62,5 +60,11 @@
 @media screen and (min-width: 1024px) {
   .destinations {
     width: 900px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations {
+    width: 1200px;
   }
 }
