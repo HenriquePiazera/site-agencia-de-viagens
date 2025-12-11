@@ -51,7 +51,8 @@ section{
 }
 
 
-section.hero{
+section.hero,
+.botton-hero{
   width: 100%;
   margin: 0;
 }
