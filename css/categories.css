@@ -17,7 +17,6 @@
   color: var(--text-primary-color);
 }
 
-
 .categories-cards .card.single-line {
   padding-top: 50px;
 }
@@ -38,6 +37,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .categories-cards {
+    flex-wrap: nowrap;
+  }
+
   .categories-cards .card {
     width: 280px;
   }
