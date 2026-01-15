@@ -25,6 +25,16 @@
   text-align: center;
 }
 
+/*travel packages*/
+.travel-packages .hero {
+  margin-bottom: 88px;
+}
+
+.travel-packages .hero-img {
+  height: 460px;
+  background: url(../img/);
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
