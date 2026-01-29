@@ -54,7 +54,7 @@ section{
 section.hero,
 .botton-hero{
   width: 100%;
-  margin: 0;
+  margin: 0 auto 88px;
 }
 
 .section-title{

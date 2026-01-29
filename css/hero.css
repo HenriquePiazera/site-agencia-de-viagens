@@ -32,8 +32,43 @@
 
 .travel-packages .hero-img {
   height: 460px;
-  background: url(../img/);
+  background: url(../img/travel-packages/hero-img-pacote-tablet.jpg);
+  background-size: cover;
 }
+
+
+.travel-packages.botton-hero .hero-img {
+  background: url(../img/travel-packages/hero-img-pacote-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.travel-packages .hero-content {
+  padding: 120px 60px 150px;
+}
+
+.travel-packages .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secundary-color);
+  font-weight: var(--title-weight);
+}
+
+
+.travel-packages .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+
+.travel-packages .hero-content p {
+  font-size: 20px;
+  color: var(--text-secundary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 
 @media screen and (min-width: 768px) {
   .hero .hero-img {
@@ -47,6 +82,11 @@
     background: url(../img/botton-hero-img-tablet.png) no-repeat;
     background-size: cover;
 
+  }
+
+  .travel-packages .hero-img{
+    background: url(../img/travel-packages/hero-img-pacote-tablet.jpg) no-repeat;
+    background-size: cover;
   }
 
   .hero h2 {
@@ -68,8 +108,18 @@
 
   }
 
+  .travel-packages .hero-img{
+    background: url(../img/travel-packages/hero-img-pacote-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+
   .hero h2 {
     padding: 88px 120px;
+  }
+
+@media  screen and (min-width: 1440px) {
+  .travel-packages .hero-content {
+    width: 1200px;
   }
 }
 
