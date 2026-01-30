@@ -1,15 +1,23 @@
-.destinations-item {
+
+/* CONTAINER DOS CARDS */
+.destination-items {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
 }
 
+/* CADA CARD */
+.destination-items .item {
+  width: 100%;
+}
+
+/* IMAGENS */
 .destinations .item .img-item {
   width: 100%;
   height: 368px;
 }
 
+/* MOBILE IMAGES */
 .destinations .item.tokyo .img-item {
   background: url(../img/tokio-mobile.jpg);
   background-size: cover;
@@ -20,25 +28,30 @@
   background-size: cover;
 }
 
-.destinations .item header h3 {
-  margin: 24px 0;
+.destination-payments .image-gallery .image.one{
+  background: url(../img/travel-packages/destinos-pagamentos-japao1-mob.jpg) no-repeat;
+  background-size: cover;
 }
 
-.destinations .item p {
-  margin-bottom: 24px;
+
+.destination-payments .image-gallery .image.two{
+  background: url(../img/travel-packages/destinos-pagamentos-japao2-mob.jpg) no-repeat;
+  background-size: cover;
 }
 
-.destinations .button {
-  width: 100%;
+.destination-payments .image-gallery .image.three{
+  background: url(../img/travel-packages/destinos-pagamentos-japao3-mob.jpg) no-repeat;
+  background-size: cover;
 }
 
+
+/* TABLET */
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
   }
 
   .destinations .item .img-item {
-    width: 100%;
     height: 452px;
   }
 
@@ -52,19 +65,60 @@
     background-size: cover;
   }
 
-  .destinations .button {
-    width: 280px;
+  .destination-payments .image-gallery .image.one{
+    background: url(../img/travel-packages/destinos-pagamentos-japao1-tabl.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .destination-payments .image-gallery .image.two{
+    background: url(../img/travel-packages/destinos-pagamentos-japao2-tabl.jpg) no-repeat;
+    background-size: cover;
+  }  
+
+  .destination-payments .image-gallery .image.three{
+    background: url(../img/travel-packages/destinos-pagamentos-japao3-tabl.jpg) no-repeat;
+    background-size: cover;
   }
 }
 
+/* DESKTOP — AQUI É O PONTO-CHAVE */
 @media screen and (min-width: 1024px) {
   .destinations {
     width: 900px;
   }
+
+  .destination-items {
+    flex-direction: row;
+  }
+
+  .destination-items .item {
+    flex: 1;
+  }
 }
 
+/* DESKTOP GRANDE */
 @media screen and (min-width: 1440px) {
   .destinations {
     width: 1200px;
   }
+
+  .destination-payments .image-gallery .image.one{
+    background: url(../img/travel-packages/destinos-pagamento-japao1-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+
+
+  .destination-payments .image-gallery .image.two{
+    background: url(../img/travel-packages/destinos-pagamento-japao2-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+
+
+  .destination-payments .image-gallery .image.three{
+    background: url(../img/travel-packages/destinos-pagamento-japao3-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+
 }
+
+

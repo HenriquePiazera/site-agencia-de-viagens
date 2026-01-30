@@ -1,5 +1,6 @@
 .hero .hero-img,
-.botton-hero .hero-img{
+.botton-hero .hero-img,
+.travel-botton-hero .travel-hero-img .travel-hero-content {
   height: 400px;
   width: 100%;
 }
@@ -16,6 +17,7 @@
   background-size: cover;
 }
 
+
 .hero h2 {
   padding: 88px 24px;
   margin: 0px;
@@ -24,6 +26,56 @@
   line-height: 1.5;
   text-align: center;
 }
+
+/*travel packages*/
+.travel-packages .hero {
+  margin-bottom: 88px;
+}
+
+.travel-packages .hero-img {
+  height: 460px;
+  background: url(../img/travel-packages/hero-img-pacote-tablet.jpg);
+  background-size: cover;
+}
+
+
+.travel-packages.botton-hero .hero-img {
+  background: url(../img/travel-packages/hero-img-pacote-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.travel-botton-hero .travel-hero-img .travel-hero-content{
+  background: url(../img/travel-packages/destination-hero-botton-mob.jpg) no-repeat;
+  background-size: cover;
+}
+
+.travel-packages .hero-content {
+  padding: 120px 60px 150px;
+}
+
+.travel-packages .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secundary-color);
+  font-weight: var(--title-weight);
+}
+
+
+.travel-packages .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+
+.travel-packages .hero-content p {
+  font-size: 20px;
+  color: var(--text-secundary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 
 @media screen and (min-width: 768px) {
   .hero .hero-img {
@@ -38,6 +90,19 @@
     background-size: cover;
 
   }
+
+  .travel-packages .hero-img{
+    background: url(../img/travel-packages/hero-img-pacote-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+
+  
+.travel-botton-hero .travel-hero-img .travel-hero-content{
+  background: url(../img/travel-packages/destination-hero-botton-tab.jpg) no-repeat;
+  background-size: cover;
+}
+
 
   .hero h2 {
     padding: 88px 60px;
@@ -58,13 +123,40 @@
 
   }
 
+  .travel-packages .hero-img{
+    height: 600px;
+    background: url(../img/travel-packages/hero-img-pacote-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+
+
+  
+.travel-botton-hero .travel-hero-img .travel-hero-content{
+  height: 600px;
+  background: url(../img/travel-packages/destination-hero-botton-desk.jpg) no-repeat;
+  background-size: cover;
+}
+
   .hero h2 {
     padding: 88px 120px;
   }
+
+@media  screen and (min-width: 1440px) {
+  .travel-packages .hero-content {
+    width: 1200px;
+  }
+
+  .travel-botton-hero .travel-hero-img .travel-hero-content{
+    height: 600px;
+    background: url(../img/travel-packages/destination-hero-botton-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+  
 }
 
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
   }
+}
 }

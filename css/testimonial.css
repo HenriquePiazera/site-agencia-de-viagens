@@ -40,5 +40,5 @@
 @media screen and (min-width: 1440px) {
     .testimonials-container{
         flex-direction: row;
-    }
+    }  
 }
