@@ -51,13 +51,20 @@ section{
 }
 
 
-section.hero,
-.botton-hero,
-.travel-botton-hero,
-.contact-hero {
+.hero,
+.contact-hero,
+.travel-packages {
   width: 100%;
   margin: 0 auto 88px;
 }
+
+.botton-hero,
+.travel-botton-hero,
+.contato-botton-hero {
+  width: 100%;
+  margin: 0 auto;
+}
+
 
 .section-title{
   width: 280px;
@@ -139,6 +146,6 @@ section.hero,
 
 @media screen and (min-width: 1440px) {
   section{
-    width: 1200px;
+    width: 1070px;
   }
 }

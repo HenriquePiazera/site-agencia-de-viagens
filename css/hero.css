@@ -1,7 +1,7 @@
 .hero .hero-img,
 .botton-hero .hero-img,
 .travel-botton-hero .travel-hero-img .travel-hero-content,
-.contact-hero .contact-hero-img {
+.contato-botton-hero .contato-hero-img .contato-hero-content {
   height: 345px;
   width: 100%;
 }
@@ -36,7 +36,7 @@
   background-size: cover;
 }
 
-.travel-packages.botton-hero .hero-img {
+.travel-packages .botton-hero .hero-img {
   background: url(../img/travel-packages/hero-img-pacote-mobile.jpg) no-repeat;
   background-size: cover;
 }
@@ -52,7 +52,7 @@
 }
 
 .travel-packages .hero-content h1,
-.contact-hero .contact-hero-content h1 {
+.contact-hero .contact-hero-img .contact-hero-content h1 {
   font-size: 28px;
   color: var(--text-secondary-color);
   font-weight: var(--title-weight);
@@ -68,7 +68,7 @@
 }
 
 .travel-packages .hero-content p,
-.contact-hero .contact-hero-content p {
+.contact-hero .contact-hero-img .contact-hero-content p {
   font-size: 18px;
   color: var(--text-secondary-color);
   font-weight: var(--text-weight);
@@ -87,7 +87,7 @@
 }
 
 .contact-hero-content {
-  padding: 105px 60px;
+  padding: 55px 60px;
 }
 
 .contact-hero .contact-hero-content h1 {
@@ -104,6 +104,11 @@
   margin: 16px 0 32px;
 }
 
+.contato-hero-img {
+  height: 435px;
+  background: url(../img/contact/contato-botton-mob.jpg) no-repeat;
+  background-size: cover;
+}
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -147,23 +152,26 @@
     margin: 0 auto;
   }
 
-
   .travel-packages .hero-content h1,
-.contact-hero .contact-hero-content h1 {
-  font-size: 48px;
-  color: var(--text-secondary-color);
-  font-weight: var(--title-weight);
-}
+  .contact-hero .contact-hero-img .contact-hero-content h1 {
+    font-size: 48px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weight);
+  }
 
+  .travel-packages .hero-content p,
+  .contact-hero .contact-hero-img .contact-hero-content p {
+    font-size: 32px;
+    color: var(--text-secondary-color);
+    font-weight: var(--text-weight);
+    line-height: 32px;
+  }
 
-.travel-packages .hero-content p,
-.contact-hero .contact-hero-content p {
-  font-size: 32px;
-  color: var(--text-secondary-color);
-  font-weight: var(--text-weight);
-  line-height: 32px;
-}
-
+  .contato-botton-hero .contato-hero-img {
+    height: 700px;
+    background: url(../img/contact/contato-botton-tab.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -192,15 +200,15 @@
   }
 
   .contact-hero .contact-hero-img {
-    height: 620px; 
-    background: url(../img/contact/contato-desk.jpg)
-      no-repeat;
+    height: 620px;
+    background: url(../img/contact/contato-desk.jpg) no-repeat;
     background-size: cover;
   }
 
   .hero h2 {
     padding: 88px 120px;
   }
+}
 
   @media screen and (min-width: 1440px) {
     .travel-packages .hero-content {
@@ -213,31 +221,31 @@
         no-repeat;
       background-size: cover;
     }
-  }
 
-  
-}
+    .contato-botton-hero .contato-hero-img {
+      height: 630px;
+      background: url(../img/contact/contato-botton-desk.jpg) no-repeat;
+      background-size: cover;
+    }
+  }
 
   @media screen and (min-width: 1920px) {
     .hero h2 {
       padding: 88px 160px;
     }
+
+    .travel-packages .hero-content h1,
+    .contact-hero .contact-hero-content h1 {
+      font-size: 68px;
+      color: var(--text-secondary-color);
+      font-weight: var(--title-weight);
+    }
+
+    .travel-packages .hero-content p,
+    .contact-hero .contact-hero-content p {
+      font-size: 38px;
+      color: var(--text-secondary-color);
+      font-weight: var(--text-weight);
+      line-height: 32px;
+    }
   }
-
-  
-  .travel-packages .hero-content h1,
-.contact-hero .contact-hero-content h1 {
-  font-size: 68px;
-  color: var(--text-secondary-color);
-  font-weight: var(--title-weight);
-}
-
-
-.travel-packages .hero-content p,
-.contact-hero .contact-hero-content p {
-  font-size: 38px;
-  color: var(--text-secondary-color);
-  font-weight: var(--text-weight);
-  line-height: 32px;
-}
-
